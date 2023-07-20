@@ -19,11 +19,11 @@ jobs:
     - name: Setup NodeJS
       uses: actions/setup-node@v3
       with:
-        node-version: $NODE_VERSION
+        node-version: ${{ env.NODE_VERSION }}
     - name: Install Dependencies
       run: cd longest-common-subsequence; npm install
     - name: Package Function
-      run: npm run nfuncm
+      run: cd longest-common-subseqeunce; npm run nfuncm
     - name: Commit Changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
