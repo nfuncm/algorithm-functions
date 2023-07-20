@@ -1,4 +1,4 @@
-name: Package Function: levenshtein-distance
+name: Package Function - levenshtein-distance
 
 env:
   NODE_VERSION: 18.x

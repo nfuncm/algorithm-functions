@@ -1,4 +1,4 @@
-name: Package Function: longest-common-subsequence
+name: Package Function - longest-common-subsequence
 
 env:
   NODE_VERSION: 18.x
