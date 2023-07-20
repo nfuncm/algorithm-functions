@@ -1,0 +1,26 @@
+name: Package Function: levenshtein-distance
+
+env:
+  NODE_VERSION: 18.x
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'levenshtein-distance/**'
+    workflow_dispatch:
+
+jobs:
+  Package:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the latest code
+      uses: actions/checkout@v3
+    - name: Setup NodeJS
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ NODE_VERSION }}
+    - name: Install Dependencies
+      run: cd levenshtein-distance; npm install
+    - name: Package Function
+      run: npm run nfuncm

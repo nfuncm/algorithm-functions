@@ -1,0 +1,21 @@
+{
+  "name": "longest-common-subsequence",
+  "version": "1.0.0",
+  "description": "JavaScript implementation of the Longest Common Subsequence algorithm",
+  "main": "./src/lcs.js",
+  "scripts": {
+    "nfuncm": "nfuncm-pack"
+  },
+  "keywords": [
+    "nfuncm"
+  ],
+  "author": "confused-Techie",
+  "repository": "https://github.com/nfuncm/algorithm-functions",
+  "license": "MIT",
+  "nfm": {
+    "minify": true
+  },
+  "devDependencies": {
+    "@nfuncm/nfuncm-packager": "^1.0.0"
+  }
+}

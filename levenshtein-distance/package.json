@@ -1,0 +1,21 @@
+{
+  "name": "levenshtein-distance",
+  "version": "1.0.0",
+  "description": "JavaScript implementation of LevenshteinDistance",
+  "main": "./src/levenshtein-distance.js",
+  "scripts": {
+    "nfuncm": "nfuncm-pack"
+  },
+  "keywords": [
+    "nfuncm"
+  ],
+  "author": "confused-Techie",
+  "repository": "https://github.com/nfuncm/algorithm-functions",
+  "license": "MIT",
+  "nfm": {
+    "minify": true
+  },
+  "devDependencies": {
+    "@nfuncm/nfuncm-packager": "^1.0.1"
+  }
+}
