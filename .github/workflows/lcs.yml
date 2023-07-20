@@ -24,3 +24,7 @@ jobs:
       run: cd longest-common-subsequence; npm install
     - name: Package Function
       run: npm run nfuncm
+    - name: Commit Changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Build Function
